@@ -1,0 +1,104 @@
+header {
+    background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    font-family: Georgia;
+    font-size: 32px;
+    line-height: 110%;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.logo p {
+    display: flex;
+    align-items: center;
+    font-family: Arial;
+    font-size: 13px;
+    line-height: 15px;
+    color: #ffffff;
+    justify-content: center;
+    letter-spacing: 0.1em;
+}
+
+.menuList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 48px;
+}
+
+.menuList li {
+    margin-left: 35px;
+}
+
+.menuList li a {
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 15px;
+    line-height: 160%;
+    color: #fafafa;
+}
+
+.menuList a:after {
+	content: "";
+	display: block; 
+	margin: 0 auto;
+	width: 0;
+	height: 3px;
+	background-color: #F1CDB3;
+	transition: width .4s ease-in 0s;  
+}
+
+.menuList a:hover:after {
+	width: 100%;
+}
+
+.menuBurger {
+	width: 30px;
+	height: 22px;
+	position: relative;
+	z-index:2;
+	overflow: hidden;
+    margin-top: 48px;
+    display: none;
+}
+
+.menuBurger span {
+	width: 30px;
+	height: 2px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #F1CDB3;
+	transition: all 0.5s;
+}
+
+.menuBurger span:nth-of-type(2) {
+	top: calc(50% - 5px);
+}
+.menuBurger span:nth-of-type(3) {
+	top: calc(50% + 5px);
+}
+
+/* Медиа запросы */
+
+@media (max-width:767px) {
+    .menuList {
+        display: none;
+    }
+
+    .menuBurger {
+        display: block;
+    }
+}
