@@ -1,0 +1,65 @@
+.startContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainContent {
+    margin-top: 163px;
+}
+
+.mainContent h2 {
+    max-width: 310px;
+    font-family: Georgia;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 57px;
+    color: #ffffff;
+    margin-bottom: 42px;
+}
+
+.mainContent p {
+    max-width: 460px;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #cdcdcd;
+    margin-bottom: 42px;
+}
+
+.img-puppy {
+    max-width: 698px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Медиа запросы */
+
+@media (max-width:1200px) {
+    .startContent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-puppy img {
+        max-width: 569px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .mainContent {
+        align-items: center;
+    }
+
+    .startContent .mainContent .btn-start {
+        align-items: center;
+    }
+}
+
+@media (max-width:767px) {
+    .img-puppy img {
+        max-width: 260px;
+        margin: 0;
+        padding: 0;
+    }
+}
