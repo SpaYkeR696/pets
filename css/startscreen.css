@@ -48,15 +48,17 @@
     }
 
     .mainContent {
-        align-items: center;
-    }
-
-    .startContent .mainContent .btn-start {
-        align-items: center;
+        margin-top: 70px;
+        margin-bottom: 90px;
     }
 }
 
 @media (max-width:767px) {
+
+    .mainContent {
+        margin-top: 60px;
+    }
+
     .img-puppy img {
         max-width: 260px;
         margin: 0;

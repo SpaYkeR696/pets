@@ -1,0 +1,54 @@
+.aboutContent {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.text {
+    max-width: 430px;
+}
+
+.text h3 {
+    display: flex;
+    max-width: 340px;
+    align-items: inherit;
+    font-family: Georgia;
+    font-size: 35px;
+    letter-spacing: 0.06em;
+    line-height: 130%;
+    font-weight: 400;
+    color: #545454;
+    margin-bottom: 25px;
+}
+
+.text p {
+    font-family: Arial;
+    font-size: 15px;
+    line-height: 160%;
+    color: #4c4c4c;
+}
+
+.p1 {
+    margin-bottom: 25px;
+}
+
+@media (max-width:1200px) {
+
+    .aboutContent {
+        display: flex;
+        flex-flow: wrap-reverse;
+    }
+
+   
+}
+
+@media (max-width:768px) {
+
+    .text h3 {
+        text-align: center;
+    }
+
+    .about-pets {
+        margin-top: 80px;
+    }
+}
