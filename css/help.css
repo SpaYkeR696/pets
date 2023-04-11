@@ -1,0 +1,60 @@
+.help-pets h3 {
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 35px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.help-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.help-content p {
+    font-family: Georgia;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin-top: 30px;
+}
+
+.content-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 55px;
+    padding-bottom: 100px;
+}
+
+@media (max-width:767px) {
+
+    .help-content {
+        display: flex;
+    }
+
+    .content-1 .helps-content {
+        margin-top: 20px;
+    }
+
+    .content-2 .helps-content {
+        margin-top: 20px;
+    }
+
+    .content-1 {
+        flex-direction: column;
+    }
+
+    .content-2 {
+        flex-direction: column;
+    }
+
+}
