@@ -1,0 +1,108 @@
+.donation {
+    background: #F6F6F6;
+}
+
+.donation-content {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.donation-text {
+    max-width: 380px;
+}
+
+.donation-text h3 {
+    max-width: 300px;
+    font-family: Georgia;
+    font-size: 35px;
+    letter-spacing: 0.06em;
+    font-weight: 400;
+    color: #545454;
+    margin-bottom: 20px;
+}
+
+.donation-text h5 {
+    font-family: Georgia;
+    font-size: 15px;
+    letter-spacing: 0.06em;
+    font-weight: 400;
+    color: #545454;
+    margin-bottom: 20px;
+}
+
+.donation-text p {
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B2B2B2;
+}
+
+.number-card {
+    max-width: 350px;
+    display: flex;
+    padding: 10px 15px;
+    background: #F1CDB3;
+    border-radius: 9px;
+    margin-bottom: 29px;
+}
+
+.number-card p {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin-left: 15px;
+}
+
+
+@media (max-width:1200px) {
+    
+   .donation-content {
+    flex-direction: column-reverse;
+    align-items: center;
+   }
+
+   .dog {
+    max-width: 505px;
+    margin-top: 60px;
+   }
+}
+
+@media (max-width:767px) {
+
+    .number-card {
+        max-width: 280px;
+    }
+
+    .number-card p {
+        font-size: 15px;
+        margin-left: 10px;
+        padding: 0;
+    }
+
+    .dog {
+        max-width: 260px;
+        margin-top: 42px;
+       }
+
+    .donation-text {
+        max-width: 300px;
+        text-align: center;
+       }
+
+    .donation-text h3 {
+        font-size: 25px;
+    }
+
+    .donation-text h5 {
+        font-size: 15px;
+    }
+
+}

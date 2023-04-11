@@ -36,6 +36,7 @@
 /* Медиа запросы */
 
 @media (max-width:1200px) {
+    
     .startContent {
         flex-direction: column;
         align-items: center;
