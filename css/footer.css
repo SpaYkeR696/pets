@@ -1,0 +1,65 @@
+footer {
+    background: url(noise_lines_transparent@2X.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.footer p {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+    margin-left: 20px;
+}
+
+.footer-content-1 h3 {
+    max-width: 280px;
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.footer-content-2 h3 {
+    max-width: 280px;
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+}
+
+.boston {
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.london {
+    display: flex;
+    align-items: center;
+}
