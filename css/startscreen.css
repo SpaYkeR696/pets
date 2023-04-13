@@ -33,8 +33,6 @@
     padding: 0;
 }
 
-/* Медиа запросы */
-
 @media (max-width:1200px) {
     
     .startContent {
